@@ -1,0 +1,11 @@
+{% extends "layouts/base" %}
+
+{% block header %} <link rel="stylesheet" href="/static/css/pages/index.css" {% endblock header %}
+{% block title_page %}Home{% endblock title_page %}
+
+{% block content %}
+<div class="container">
+    <h1>Home :)</h1>
+    <p> It's getting homey in here 😊 </p>
+</div>
+{% endblock content %}
