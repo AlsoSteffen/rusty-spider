@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
     {% block head %}
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
         {# This gets rid of the weird favicon error #}
         <link rel="shortcut icon" href="#"/>
         <link rel="stylesheet" href="/static/css/layouts/base.css"/>
@@ -9,16 +13,15 @@
         <link rel="stylesheet" href="/static/css/partials/header.css"/>
         <link rel="stylesheet" href="/static/css/partials/footer.css"/>
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
         <title>{{ title_main }} | {% block title_page %}{% endblock title_page %}</title>
     {% endblock head %}
 </head>
 
 <body>
 
+{% include "partials/header" %}
 <div id="content">{% block content %}{% endblock content %}</div>
+{% include "partials/footer" %}
 
 </body>
 </html>

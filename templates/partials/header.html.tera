@@ -1,0 +1,9 @@
+<header class="navigation">
+    <section class="container">
+        <a class="float-left navigation-logo-box" href="/">
+            <img src="/static/img/steff_logo.svg" class="navigation-logo" alt=""/>
+            <h1 class="navigation-logo-text">S. Tourbier</h1>
+        </a>
+        <div class="float-right">Test</div>
+    </section>
+</header>
