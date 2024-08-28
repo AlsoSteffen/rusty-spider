@@ -1,0 +1,17 @@
+.footer {
+    background-color: rgba(20, 100, 30, 0.4);
+    height: 28px;
+    border-top: 1px solid rgb(115, 60, 0);
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        height: 56px;
+    }
+}
+
+.footer-text {
+    margin: 0;
+    padding: 0;
+    color: rgba(70, 35, 0);
+}

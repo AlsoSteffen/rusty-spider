@@ -51,7 +51,11 @@
 }
 
 #portfolio {
+    border-left: 1px solid;
+    padding: 3.5rem 2rem;
 }
 
-.about {
+#about {
+    border-left: 1px solid;
+    padding: 3.5rem 2rem;
 }

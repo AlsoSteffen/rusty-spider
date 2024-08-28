@@ -1,3 +1,6 @@
-<footer class="container">
-    &copy; Steffen Tourbier
+<footer class="footer">
+    <div class="container">
+        <p class="float-left footer-text">&copy; Steffen Tourbier 2024</p>
+        <p class="float-right footer-text">Made with <a href="https://rocket.rs/">Rocket 🚀</a></p>
+    </div>
 </footer>
