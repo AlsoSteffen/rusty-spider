@@ -1,36 +1,34 @@
 {% extends "layouts/base" %}
 
 {% block head %}
-    <link rel="stylesheet" href="/static/css/pages/index.css"/>
     <link rel="stylesheet" href="/static/css/pages/introduction.css"/>
+    <link rel="stylesheet" href="/static/css/pages/introduction-animation.css"/>
 {% endblock head %}
 
 {% block title_page %}Home{% endblock title_page %}
 
 {% block content %}
-<section class="introduction">
-    <div class="container">
-        <div class="introduction-box">
-            {% include "partials/introduction-animation" %}
-            <div class="introduction-text-box">
-                <h1 class="introduction-text introduction-header">Why hello there</h1>
-                <hr>
-                <p class="introduction-text">Welcome to my little website 😊</p>
-                <p class="introduction-text">See some of the projects I've worked on, the technologies included in my skill-set, as well as general things about me!</p>
-                <p class="introduction-text">I hope you enjoy your stay, feel free to explore!</p>
+    <section id="introduction">
+        <div class="container">
+            <div class="introduction-box">
+                {% include "partials/introduction-animation" %}
+                <div class="introduction-text-box">
+                    <h1 class="introduction-text introduction-header">Why hello there</h1>
+                    <hr>
+                    <p class="introduction-text">Welcome to my little website 😊</p>
+                    <p class="introduction-text">Here you'll see some of the projects I've worked on, the technologies included in
+                        my skill-set, and some other stuff about me.</p>
+                    <p class="introduction-text">I hope you enjoy your stay, feel free to explore!</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-
-<div class="container">
-    <section class="portfolio">
+    </section>
+    <section id="portfolio" class="container">
         <h1>Portfolio</h1>
         <p>Work in progress! 🚧🏗️</p>
     </section>
-    <section class="about">
+    <section id="about" class="container">
         <h1>About Me</h1>
         <p>Work in progress! 🚧🏗️</p>
     </section>
-</div>
 {% endblock content %}

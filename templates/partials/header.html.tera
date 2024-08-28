@@ -5,9 +5,9 @@
             <h1 class="navigation-text navigation-logo-text">S. Tourbier</h1>
         </a>
         <div class="float-right navigation-links-box">
-            <a href="#" class="navigation-text navigation-link">Portfolio</a>
+            <a href="#portfolio" class="navigation-text navigation-link">Portfolio</a>
             <span class="no-select selector">│</span>
-            <a href="#" class="navigation-text navigation-link">About</a>
+            <a href="#about" class="navigation-text navigation-link">About</a>
         </div>
     </section>
 </header>

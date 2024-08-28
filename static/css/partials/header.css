@@ -2,7 +2,8 @@
     background-color: rgba(20, 100, 30, 0.4);
     height: 5.3rem;
     line-height: 5rem;
-    border-bottom: 1px solid rgba(140, 90, 30, 0.95);
+    border-bottom: 1px solid rgb(115, 60, 0);
+;
 }
 
 .navigation-logo-box {
@@ -17,10 +18,10 @@
     padding: 0;
     display: inline-block;
     vertical-align: middle;
+    color: rgba(70, 35, 0);
 }
 
 .navigation-logo-text {
-    color: rgba(80, 50, 15, 0.95);
 }
 
 .navigation-logo {
@@ -34,5 +35,4 @@
 }
 
 .navigation-link {
-    color: #14641e;
 }
