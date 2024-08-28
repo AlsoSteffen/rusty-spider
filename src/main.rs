@@ -13,7 +13,7 @@ use rocket_dyn_templates::{context, Template};
 #[get("/")]
 fn index() -> Template {
     let context = context! {
-        title_main: "🍺 Tourbier",
+        title_main: "S. Tourbier",
     };
 
     Template::render("pages/index", &context)}

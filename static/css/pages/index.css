@@ -1,0 +1,46 @@
+.introduction {
+    padding: 3.5rem 0;
+    background-color: rgba(140, 80, 30, 0.2);
+}
+
+.introduction-box {
+}
+
+.introduction-img {
+    width: 35%;
+    height: 35%;
+    display: block;
+    margin: 0 auto;
+}
+
+.introduction-text-box {
+    opacity: 0;
+    animation: fade-in 500ms;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.introduction-header {
+    font-size: 7vmin;
+    font-kerning: inherit;
+}
+
+.introduction-text {
+    text-align: center;
+    margin-top: 1.9rem;
+}
+
+.portfolio {
+}
+
+.about {
+}

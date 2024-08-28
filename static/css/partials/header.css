@@ -1,7 +1,7 @@
 .navigation {
     background-color: rgba(20, 100, 30, 0.4);
-    height: 6.3rem;
-    line-height: 6.3rem;
+    height: 5.3rem;
+    line-height: 5rem;
     border-bottom: 1px solid rgba(140, 90, 30, 0.95);
 }
 
@@ -11,21 +11,28 @@
 }
 
 
-.navigation-logo-text {
-    color: rgba(80, 50, 15, 0.95);
-    font-size: 3.4rem;
+.navigation-text {
+    font-size: 1.8rem;
     margin: 0;
     padding: 0;
     display: inline-block;
     vertical-align: middle;
 }
 
+.navigation-logo-text {
+    color: rgba(80, 50, 15, 0.95);
+}
+
 .navigation-logo {
-    height: 5.5rem;
+    height: 4.2rem;
     display: inline-block;
     vertical-align: middle;
 }
 
-.navigation-buttons {
+.navigation-links-box {
 
+}
+
+.navigation-link {
+    color: #14641e;
 }
