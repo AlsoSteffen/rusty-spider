@@ -23,6 +23,12 @@
 .navigation-logo-text {
 }
 
+.navigation-logo-img-box {
+    height: 4.2rem;
+    width: 4.2rem;
+    margin-right: 0.5rem;
+}
+
 .navigation-logo {
     height: 4.2rem;
     display: inline-block;
@@ -34,4 +40,5 @@
 }
 
 .navigation-link {
+
 }

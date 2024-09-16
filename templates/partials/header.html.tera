@@ -1,7 +1,9 @@
 <header class="navigation">
     <section class="container">
         <a href="/" class="float-left navigation-logo-box">
-            <img src="/static/img/steff_logo.svg" class="navigation-logo" alt=""/>
+            <div class="float-left navigation-logo-img-box">
+                <img src="/static/img/steff_logo.svg" class="navigation-logo" alt=""/>
+            </div>
             <h1 class="navigation-text navigation-logo-text">S. Tourbier</h1>
         </a>
         <div class="float-right navigation-links-box">

@@ -16,18 +16,18 @@
                     <h1 class="introduction-text introduction-header">Why hello there</h1>
                     <hr>
                     <p class="introduction-text">Welcome to my little website 😊</p>
-                    <p class="introduction-text">Here you'll see some of the projects I've worked on, the technologies included in
-                        my skill-set, and some other stuff about me.</p>
+                    <p class="introduction-text">Here you'll see some of the projects I've worked on, the technologies
+                        included in my skill-set, and some other stuff about me.</p>
                     <p class="introduction-text">I hope you enjoy your stay, feel free to explore!</p>
                 </div>
             </div>
         </div>
     </section>
-    <section id="portfolio" class="container">
+    <section id="portfolio" class="container index-section">
         <h1>Portfolio</h1>
         <p>Work in progress! 🚧🏗️</p>
     </section>
-    <section id="about" class="container">
+    <section id="about" class="container index-section">
         <h1>About Me</h1>
         <p>Work in progress! 🚧🏗️</p>
     </section>

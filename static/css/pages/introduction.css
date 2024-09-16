@@ -1,6 +1,7 @@
 #introduction {
     padding: 3.5rem 0;
     background-color: rgba(140, 80, 30, 0.2);
+    border-bottom: 1px solid rgb(115, 60, 0);
 }
 
 .animate-once {
@@ -50,12 +51,15 @@
     margin-top: 1.9rem;
 }
 
-#portfolio {
-    border-left: 1px solid;
+.index-section {
+    border-left: 1px solid rgb(115, 60, 0);
     padding: 3.5rem 2rem;
 }
 
+#portfolio {
+
+}
+
 #about {
-    border-left: 1px solid;
-    padding: 3.5rem 2rem;
+
 }
