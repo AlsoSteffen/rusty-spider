@@ -4,14 +4,14 @@
     border-top: 1px solid rgb(115, 60, 0);
 }
 
-@media screen and (max-width: 320px) {
-    .footer {
-        height: 56px;
-    }
-}
-
 .footer-text {
     margin: 0;
     padding: 0;
     color: rgba(70, 35, 0);
+}
+
+@media screen and (max-width: 481px) {
+    .footer {
+        height: 56px;
+    }
 }

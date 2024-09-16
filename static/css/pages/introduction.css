@@ -1,20 +1,15 @@
 #introduction {
-    padding: 3.5rem 0;
     background-color: rgba(140, 80, 30, 0.2);
     border-bottom: 1px solid rgb(115, 60, 0);
 }
 
-.animate-once {
-    /* Just empty, since I'm handling this class via Rocket. */
-}
-
 .introduction-box {
-
+    padding: 3.24rem 0;
 }
 
 .introduction-img {
-    width: 35%;
-    height: 35%;
+    width: 36%;
+    height: 36%;
     display: block;
     margin: 0 auto;
 }
@@ -35,20 +30,14 @@
     }
 }
 
-.introduction-header {
-    font-size: 3.5vw;
-    font-kerning: inherit;
-}
-
-@media screen and (min-width: 1100px) {
-    .introduction-header {
-        font-size: 36pt;
-    }
-}
-
 .introduction-text {
     text-align: center;
     margin-top: 1.9rem;
+}
+
+.introduction-header {
+    font-size: 4rem;
+    font-kerning: inherit;
 }
 
 .index-section {
@@ -56,10 +45,9 @@
     padding: 3.5rem 2rem;
 }
 
-#portfolio {
-
-}
-
-#about {
-
+@media screen and (max-width: 890px) {
+    .introduction-img {
+        width: 50%;
+        height: 50%;
+    }
 }

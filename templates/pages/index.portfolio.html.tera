@@ -1,0 +1,50 @@
+{% block head %}
+    <link rel="stylesheet" href="/static/css/pages/portfolio.css"/>
+{% endblock head %}
+
+<section id="e-knip">
+    <div id="e-knip-title">
+        <div class="container index-section e-knip-logo-box">
+            <img class="e-knip-logo center-vertical" src="/static/img/eknip/eknip-logo.png"
+                 alt="Image of the EnergieKnip logo."/>
+        </div>
+    </div>
+    <div class="container index-section">
+        <p class="text-white">
+            In collaboration with the municipality of Emmen (NL),
+            this project was conducted to analyse and
+            promote the use of energy-saving electronics.
+        </p>
+
+        <h3 class="text-eknip">Tech Stack</h3>
+        <i class="devicon-typescript-original colored tech-icon"></i>
+        <i class="devicon-javascript-plain colored tech-icon"></i>
+        <i class="devicon-dot-net-plain colored tech-icon"></i>
+        <i class="devicon-nodejs-plain colored tech-icon"></i>
+        <i class="devicon-react-plain colored tech-icon"></i>
+        <i class="devicon-docker-plain colored tech-icon"></i>
+        <i class="devicon-ubuntu-plain colored tech-icon"></i>
+
+
+        <h3 class="text-eknip">Impact and Achievements</h3>
+        <h3 class="text-eknip">Visuals</h3>
+        <ul class="no-bullets">
+            <li><a class="text-eknip" href="https://energieknip.nl/">EnergieKnip</a></li>
+            <li><a class="text-eknip"
+                   href="https://blog.iota.org/using-data-to-cut-energy-use-while-boosting-local-economies/">
+                    Incentivizing Energy Savings with EnergieKnip and IOTA</a></li>
+            <li>
+                <a class="text-eknip"
+                   href="https://www.smart-energy.com/industry-sectors/digitalisation/energieknip-demonstrates-incentivised-energy-savings-on-blockchain//">
+                    ‘EnergieKnip’ demonstrates incentivised energy savings on blockchain</a></li>
+        </ul>
+    </div>
+</section>
+
+<section id="od-security">
+
+</section>
+
+<section id="bike-helmet">
+
+</section>

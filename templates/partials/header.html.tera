@@ -1,15 +1,15 @@
 <header class="navigation">
     <section class="container">
-        <a href="/" class="float-left navigation-logo-box">
+        <a href="/" class="float-left center-vertical">
             <div class="float-left navigation-logo-img-box">
-                <img src="/static/img/steff_logo.svg" class="navigation-logo" alt=""/>
+                <img src="/static/img/steff_logo.svg" class="center-vertical" alt=""/>
             </div>
-            <h1 class="navigation-text navigation-logo-text">S. Tourbier</h1>
+            <h1 class="navigation-text navigation-logo-text center-vertical">S. Tourbier</h1>
         </a>
         <div class="float-right navigation-links-box">
-            <a href="#portfolio" class="navigation-text navigation-link">Portfolio</a>
-            <span class="no-select selector">│</span>
-            <a href="#about" class="navigation-text navigation-link">About</a>
+            <a href="#portfolio" class="navigation-text navigation-link center-vertical">Portfolio</a>
+            <span class="navigation-text no-select selector">│</span>
+            <a href="#about" class="navigation-text navigation-link center-vertical">About</a>
         </div>
     </section>
 </header>
