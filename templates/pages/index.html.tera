@@ -8,7 +8,7 @@
 {% block title_page %}Home{% endblock title_page %}
 
 {% block content %}
-    <section id="introduction">
+    <section id="introduction" class="add-bottom-border">
         <div class="container">
             <div class="introduction-box">
                 {% include "partials/introduction-animation" %}
@@ -23,6 +23,7 @@
             </div>
         </div>
     </section>
+
     <section id="portfolio">
         <div class="container index-section">
             <h1>Portfolio</h1>
@@ -30,6 +31,7 @@
         </div>
         {% include "pages/index.portfolio" %}
     </section>
+
     <section id="about" class="index-section">
         <h1>About Me</h1>
         <p>Work in progress! 🚧🏗️</p>

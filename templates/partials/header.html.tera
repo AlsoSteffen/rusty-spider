@@ -1,8 +1,8 @@
-<header class="navigation">
+<header class="navigation add-bottom-border">
     <section class="container">
         <a href="/" class="float-left center-vertical">
             <div class="float-left navigation-logo-img-box">
-                <img src="/static/img/steff_logo.svg" class="center-vertical" alt=""/>
+                <img src="/static/img/steff/steff_logo.svg" class="center-vertical" alt=""/>
             </div>
             <h1 class="navigation-text navigation-logo-text center-vertical">S. Tourbier</h1>
         </a>

@@ -1,7 +1,8 @@
 ul.no-bullets {
-    list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
+    list-style-type: -moz-kannada;
+    color: white;
 }
 
 .no-select {
@@ -11,15 +12,6 @@ ul.no-bullets {
     -moz-user-select: none; /* Old versions of Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none; /* Non-prefixed version, currently */
-}
-
-.selector {
-    user-drag: none;
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
 }
 
 .text-center {
@@ -37,4 +29,16 @@ ul.no-bullets {
 .center-vertical {
     display: inline-block;
     vertical-align: middle;
+}
+
+.add-bottom-border {
+    border-bottom: 1px solid rgb(115, 60, 0);
+}
+
+.add-top-border {
+    border-top: 1px solid rgb(115, 60, 0);
+}
+
+.add-left-border {
+    border-left: 1px solid rgb(115, 60, 0);
 }

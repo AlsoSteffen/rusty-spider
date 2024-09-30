@@ -21,6 +21,12 @@
     color: #f9b233;
 }
 
+.link-eknip {
+    text-decoration: none;
+    color: #f9b233;
+    list-style-type: "test";
+}
+
 @media screen and (max-width: 1025px) {
     .e-knip-logo {
         width: 33%;
