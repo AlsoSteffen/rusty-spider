@@ -39,6 +39,6 @@ ul.no-bullets {
     border-top: 1px solid rgb(115, 60, 0);
 }
 
-.add-left-border {
-    border-left: 1px solid rgb(115, 60, 0);
+.tech-icon {
+    font-size: 5rem;
 }

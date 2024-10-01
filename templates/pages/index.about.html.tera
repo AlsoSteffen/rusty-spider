@@ -1,0 +1,7 @@
+{% block head %}
+    <link rel="stylesheet" href="/static/css/pages/portfolio.css"/>
+{% endblock head %}
+
+<section id="hobbies">
+
+</section>

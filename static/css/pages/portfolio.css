@@ -1,5 +1,19 @@
-.tech-icon {
-    font-size: 5rem;
+.section-logo {
+    height: 6rem;
+}
+
+.section-logo-box {
+}
+
+
+@media screen and (max-width: 1025px) {
+    .section-logo {
+        width: 33%;
+    }
+
+    .section-logo-box {
+        text-align: center;
+    }
 }
 
 #e-knip-title {
@@ -10,29 +24,21 @@
     background-color: rgba(111, 48, 123, 0.9);
 }
 
-.e-knip-logo {
-    width: 25rem;
-}
-
-.e-knip-logo-box {
-}
-
 .text-eknip {
-    color: #f9b233;
+    color: rgb(249, 178, 51);
 }
 
 .link-eknip {
     text-decoration: none;
-    color: #f9b233;
+    color: rgb(249, 178, 51);
     list-style-type: "test";
 }
 
-@media screen and (max-width: 1025px) {
-    .e-knip-logo {
-        width: 33%;
-    }
-
-    .e-knip-logo-box {
-        text-align: center;
-    }
+#nhlstenden-title {
+    background-color: rgba(1, 155, 167, 0.9);
 }
+
+#nhlstenden {
+    background-color: rgba(14, 89, 161, 0.9);
+}
+

@@ -32,8 +32,11 @@
         {% include "pages/index.portfolio" %}
     </section>
 
-    <section id="about" class="index-section">
-        <h1>About Me</h1>
-        <p>Work in progress! 🚧🏗️</p>
+    <section id="about">
+        <div class="container index-section">
+            <h1>About Me</h1>
+            <p>Work in progress! 🚧🏗️</p>
+        </div>
+        {%  include "pages/index.about" %}
     </section>
 {% endblock content %}

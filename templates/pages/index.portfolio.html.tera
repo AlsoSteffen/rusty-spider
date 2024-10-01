@@ -2,11 +2,11 @@
     <link rel="stylesheet" href="/static/css/pages/portfolio.css"/>
 {% endblock head %}
 
-<section id="e-knip">
+<section id="e-knip" class="add-bottom-border">
     <div id="e-knip-title">
-        <div class="container index-section e-knip-logo-box">
-            <img class="e-knip-logo center-vertical no-select" src="/static/img/logo/eknip_logo.png"
-                 alt="Image of the EnergieKnip logo." draggable="false"/>
+        <div class="container index-section section-logo-box">
+            <img class="section-logo center-vertical no-select" src="/static/img/logo/eknip_logo.png"
+                 alt="Logo of the EnergieKnip Project." draggable="false"/>
         </div>
     </div>
     <div class="container index-section">
@@ -40,32 +40,54 @@
         <ul class="no-bullets">
             <li><a class="link-eknip" href="https://energieknip.nl/">EnergieKnip</a></li>
             <li><a class="link-eknip"
-                   href="https://blog.iota.org/using-data-to-cut-energy-use-while-boosting-local-economies/">Incentivizing Energy Savings with EnergieKnip and IOTA</a></li>
-            <li><a class="link-eknip" href="https://www.smart-energy.com/industry-sectors/digitalisation/energieknip-demonstrates-incentivised-energy-savings-on-blockchain//">‘EnergieKnip’ demonstrates incentivised energy savings on blockchain</a></li>
+                   href="https://blog.iota.org/using-data-to-cut-energy-use-while-boosting-local-economies/">Incentivizing
+                    Energy Savings with EnergieKnip and IOTA</a></li>
+            <li><a class="link-eknip"
+                   href="https://www.smart-energy.com/industry-sectors/digitalisation/energieknip-demonstrates-incentivised-energy-savings-on-blockchain//">‘EnergieKnip’
+                    demonstrates incentivised energy savings on blockchain</a></li>
         </ul>
     </div>
 </section>
 
-<section id="od-security">
-    <i class="devicon-pytorch-plain colored tech-icon"></i>
-    <i class="devicon-tensorflow-original colored tech-icon"></i>
-    <i class="devicon-opencv-plain colored tech-icon"></i>
-    <i class="devicon-numpy-plain colored tech-icon"></i>
-    <i class="devicon-pandas-plain colored tech-icon"></i>
-    <i class="devicon-python-plain colored tech-icon"></i>
-    <i class="devicon-ubuntu-plain colored tech-icon"></i>
-    <i class="devicon-anaconda-plain colored tech-icon"></i>
+<section id="nhlstenden">
+    <div id="nhlstenden-title">
+        <div class="container index-section section-logo-box">
+            <img class="section-logo center-vertical no-select" src="/static/img/logo/nhl_stenden_logo.png"
+                 alt="Logo of NHL Stenden University of Applied Sciences." draggable="false"/>
+        </div>
+    </div>
 
-</section>
+    <div class="container index-section">
+        <h3 class="text-white">The Projects</h3>
+        <div class="row">
+            <div class="column">
+                <h4 class="text-white">OD Security Anomaly Detection</h4>
+                <p class="text-white">Aiding security X-ray operators with the help of anomaly detection.</p>
+            </div>
+            <div class="column">
+                <h4 class="text-white">Provinsje Fryslân Bike Helmet Counting</h4>
+                <p class="text-white">Automating cyclist and helmet counting for the municipality.</p>
+            </div>
+        </div>
 
-<section id="bike-helmet">
-    <i class="devicon-pytorch-plain colored tech-icon"></i>
-    <i class="devicon-tensorflow-original colored tech-icon"></i>
-    <i class="devicon-opencv-plain colored tech-icon"></i>
-    <i class="devicon-numpy-plain colored tech-icon"></i>
-    <i class="devicon-pandas-plain colored tech-icon"></i>
-    <i class="devicon-python-plain colored tech-icon"></i>
-    <i class="devicon-ubuntu-plain colored tech-icon"></i>
-    <i class="devicon-anaconda-plain colored tech-icon"></i>
+        <h3 class="text-white">My Role</h3>
+        <p class="text-white"></p>
+
+        <h3 class="text-white">Tech Stack</h3>
+        <i class="devicon-pytorch-plain colored tech-icon"></i>
+        <i class="devicon-tensorflow-original colored tech-icon"></i>
+        <i class="devicon-opencv-plain colored tech-icon"></i>
+        <i class="devicon-numpy-plain colored tech-icon"></i>
+        <i class="devicon-pandas-plain colored tech-icon"></i>
+        <i class="devicon-python-plain colored tech-icon"></i>
+        <i class="devicon-ubuntu-plain colored tech-icon"></i>
+        <i class="devicon-anaconda-plain colored tech-icon"></i>
+
+        <h3 class="text-white">Impact and Achievements</h3>
+
+        <ul class="no-bullets">
+        </ul>
+    </div>
+
 
 </section>
