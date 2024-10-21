@@ -1,5 +1,5 @@
 .section-logo {
-    height: 6rem;
+    width: 25rem;
 }
 
 .section-logo-box {
@@ -28,10 +28,13 @@
     color: rgb(249, 178, 51);
 }
 
+.video-eknip {
+    width: 50%
+}
+
 .link-eknip {
     text-decoration: none;
     color: rgb(249, 178, 51);
-    list-style-type: "test";
 }
 
 #nhlstenden-title {
@@ -42,3 +45,8 @@
     background-color: rgba(14, 89, 161, 0.9);
 }
 
+.video-bike-helmet {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: fill;
+}

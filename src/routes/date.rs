@@ -1,5 +1,5 @@
-use rocket::serde::json::{Json};
-use rocket::serde::{Serialize, Deserialize};
+use rocket::serde::json::Json;
+use rocket::serde::{Deserialize, Serialize};
 
 // import services module
 use crate::services;
@@ -11,7 +11,7 @@ use crate::services;
 pub struct Date {
     pub day: u32,
     pub month: u32,
-    pub year: i32
+    pub year: i32,
 }
 
 // create get-current-date route under /date and call get_current_date service which will return a Date object
@@ -22,7 +22,7 @@ pub fn get_current_date() -> Json<Date> {
 }
 
 // route will accept data in JSON format and expects a date variable in the function parameters
-#[post("/date/date-plus-month", format = "json", data = "<date>")]
-pub fn date_plus_month(date: Json<Date>) -> Json<Date> {
-    Json(services::date::date_plus_month(date))
-}
+// #[post("/date/date-plus-month", format = "json", data = "<date>")]
+// pub fn date_plus_month(date: Json<Date>) -> Json<Date> {
+//     Json(services::date::date_plus_month(date))
+// }

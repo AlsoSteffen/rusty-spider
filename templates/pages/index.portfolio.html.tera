@@ -10,42 +10,52 @@
         </div>
     </div>
     <div class="container index-section">
-        <h3 class="text-eknip">The Project</h3>
-        <p class="text-white">
-            In collaboration with the municipality of Emmen (NL),
-            this project was conducted to analyse and
-            promote the use of energy-saving electronics.
-        </p>
+        <div class="row">
+            <div class="column">
+                <h3 class="text-eknip">The Project</h3>
+                <p class="text-white">
+                    In collaboration with the municipality of Emmen (NL),
+                    this project was conducted to analyse and
+                    promote the use of energy-saving electronics.
+                </p>
 
-        <h3 class="text-eknip">My Role</h3>
-        <p class="text-white">
-            I worked as the primary software developer for this project,
-            responsible for developing the main mobile application, designing
-            certain architectural features, developing supporting systems,
-            and also testing, deploying, and monitoring the application
-            during the project duration.
-        </p>
+                <h3 class="text-eknip">My Role</h3>
+                <p class="text-white">
+                    I worked as the primary software developer for this project,
+                    responsible for developing the main mobile application, designing
+                    certain architectural features, developing supporting systems,
+                    and also testing, deploying, and monitoring the application
+                    during the project duration.
+                </p>
 
-        <h3 class="text-eknip">Tech Stack</h3>
-        <i class="devicon-typescript-original colored tech-icon"></i>
-        <i class="devicon-javascript-plain colored tech-icon"></i>
-        <i class="devicon-dot-net-plain colored tech-icon"></i>
-        <i class="devicon-nodejs-plain colored tech-icon"></i>
-        <i class="devicon-react-plain colored tech-icon"></i>
-        <i class="devicon-docker-plain colored tech-icon"></i>
-        <i class="devicon-ubuntu-plain colored tech-icon"></i>
+                <h3 class="text-eknip">Tech Stack</h3>
+                <i class="devicon-typescript-original colored tech-icon"></i>
+                <i class="devicon-javascript-plain colored tech-icon"></i>
+                <i class="devicon-dot-net-plain colored tech-icon"></i>
+                <i class="devicon-nodejs-plain colored tech-icon"></i>
+                <i class="devicon-react-plain colored tech-icon"></i>
+                <i class="devicon-docker-plain colored tech-icon"></i>
+                <i class="devicon-ubuntu-plain colored tech-icon"></i>
 
-        <h3 class="text-eknip">Impact and Achievements</h3>
+                <h3 class="text-eknip">Impact and Achievements</h3>
 
-        <ul class="no-bullets">
-            <li><a class="link-eknip" href="https://energieknip.nl/">EnergieKnip</a></li>
-            <li><a class="link-eknip"
-                   href="https://blog.iota.org/using-data-to-cut-energy-use-while-boosting-local-economies/">Incentivizing
-                    Energy Savings with EnergieKnip and IOTA</a></li>
-            <li><a class="link-eknip"
-                   href="https://www.smart-energy.com/industry-sectors/digitalisation/energieknip-demonstrates-incentivised-energy-savings-on-blockchain//">‘EnergieKnip’
-                    demonstrates incentivised energy savings on blockchain</a></li>
-        </ul>
+                <ul class="no-bullets">
+                    <li><a class="link-eknip text-underline" href="https://energieknip.nl/">EnergieKnip</a></li>
+                    <li><a class="link-eknip text-underline"
+                           href="https://blog.iota.org/using-data-to-cut-energy-use-while-boosting-local-economies/">Incentivizing
+                            Energy Savings with EnergieKnip and IOTA</a></li>
+                    <li><a class="link-eknip text-underline"
+                           href="https://www.smart-energy.com/industry-sectors/digitalisation/energieknip-demonstrates-incentivised-energy-savings-on-blockchain//">‘EnergieKnip’
+                            demonstrates incentivised energy savings on blockchain</a></li>
+                </ul>
+            </div>
+            <div class="column text-center">
+                <video class="video-eknip" muted autoplay loop>
+                    <source src="/static/mov/eknip-video.mov" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
     </div>
 </section>
 
@@ -62,16 +72,48 @@
         <div class="row">
             <div class="column">
                 <h4 class="text-white">OD Security Anomaly Detection</h4>
-                <p class="text-white">Aiding security X-ray operators with the help of anomaly detection.</p>
+                <p class="text-white">Aiding security X-ray operators with the help of anomaly detection and synthetic
+                    anomalies.</p>
+                <img class="" src="/static/img/od_security_synthetic_comparison.png"
+                     alt="X-ray image comparing a real detected anomaly to a synthetically added one.">
+                <h5 class="text-white">Outputs</h5>
+                <ul class="no-bullets">
+                    <li><a class="text-white text-underline" href="/static/doc/projects/od_security_s7_paper.pdf"
+                           download>Paper | OD Security</a></li>
+                    <li><a class="text-white text-underline" href="/static/doc/projects/od_security_s7_poster.pdf"
+                           download>Poster | OD Security</a></li>
+                </ul>
             </div>
             <div class="column">
                 <h4 class="text-white">Provinsje Fryslân Bike Helmet Counting</h4>
                 <p class="text-white">Automating cyclist and helmet counting for the municipality.</p>
+                <video class="video-bike-helmet" muted autoplay loop>
+                    <source src="/static/mov/bike_helmet_demo.mov" type="video/mp4">
+                </video>
+                <h5 class="text-white">Outputs</h5>
+                <ul class="no-bullets">
+                    <li><a class="text-white text-underline" href="/static/doc/projects/bike_helmets_s8_paper.pdf"
+                           download>Paper | Bike Helmet</a></li>
+                    <li><a class="text-white text-underline" href="/static/doc/projects/bike_helmets_s8_poster.pdf"
+                           download>Poster | Bike Helmet</a>
+                    </li>
+                </ul>
             </div>
         </div>
 
         <h3 class="text-white">My Role</h3>
-        <p class="text-white"></p>
+        <p class="text-white">
+            I worked on these projects as a student researcher
+            during my M.Sc. in Computer Vision & Data Science,
+            responsible for exploring research directions based
+            on state-of-the-art research relevant to the project.
+            For the OD Security project, this took me to the direction
+            of Anomaly Detection and generating synthetic anomalies.
+            And for the Bike Helmet project, this led to researching
+            methods of improving model training to reduce false positive
+            detections, and tracking methods to facilitate counting
+            unique objects.
+        </p>
 
         <h3 class="text-white">Tech Stack</h3>
         <i class="devicon-pytorch-plain colored tech-icon"></i>
@@ -82,11 +124,6 @@
         <i class="devicon-python-plain colored tech-icon"></i>
         <i class="devicon-ubuntu-plain colored tech-icon"></i>
         <i class="devicon-anaconda-plain colored tech-icon"></i>
-
-        <h3 class="text-white">Impact and Achievements</h3>
-
-        <ul class="no-bullets">
-        </ul>
     </div>
 
 

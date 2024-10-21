@@ -26,17 +26,29 @@
 
     <section id="portfolio">
         <div class="container index-section">
-            <h1>Portfolio</h1>
-            <p>Work in progress! 🚧🏗️</p>
+            <h1 class="text-center">Portfolio</h1>
+
+            <div class="text-center">
+                <a href="/static/doc/cv_steff.pdf" download="cv_steff.pdf">
+                    <button>Download Curriculum Vitae</button>
+                </a>
+                <a href="/static/doc/letter_steff.pdf" download="letter_steff.pdf">
+                    <button>Download Cover Letter</button>
+                </a>
+            </div>
+
+            <p class="text-center">Work in progress! 🚧🏗️</p>
         </div>
         {% include "pages/index.portfolio" %}
     </section>
 
     <section id="about">
-        <div class="container index-section">
-            <h1>About Me</h1>
-            <p>Work in progress! 🚧🏗️</p>
+        <div class="bg-trexi">
+            <div class="container index-section about-section text-white">
+                <h1 class="text-center">About Me</h1>
+                <p class="text-center">Work in progress! 🚧🏗️</p>
+            </div>
+            {% include "pages/index.about" %}
         </div>
-        {%  include "pages/index.about" %}
     </section>
 {% endblock content %}

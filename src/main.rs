@@ -4,11 +4,10 @@ extern crate rocket;
 mod routes;
 mod services;
 
-use std::collections::HashMap;
-use rocket::fs::{relative, FileServer, Options};
-use crate::routes::date::{date_plus_month, get_current_date};
+use crate::routes::date::get_current_date;
+use crate::routes::slides::get_slide_paths;
+use rocket::fs::{relative, FileServer};
 use rocket_dyn_templates::{context, Template};
-
 
 #[get("/")]
 fn index() -> Template {
@@ -16,12 +15,13 @@ fn index() -> Template {
         title_main: "S. Tourbier",
     };
 
-    Template::render("pages/index", &context)}
+    Template::render("pages/index", &context)
+}
 
 #[launch]
 fn rocket() -> _ {
     rocket::build()
-        .mount("/", routes![index])
         .mount("/static", FileServer::from(relative!("static")))
+        .mount("/", routes![index, get_current_date, get_slide_paths])
         .attach(Template::fairing())
 }

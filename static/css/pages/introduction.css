@@ -44,6 +44,30 @@
     padding: 3.5rem 2rem;
 }
 
+.about-section {
+    background-color: rgba(140, 140, 140, 0.5);
+}
+
+.bg-trexi {
+    background-image: url("/static/img/origami/trex.jpg");
+    background-size: cover;
+}
+
+.bg-fox {
+    background-image: url("/static/img/origami/fox.jpg");
+    background-size: cover;
+}
+
+.bg-frog {
+    background-image: url("/static/img/origami/frog.jpg");
+    background-size: cover;
+}
+
+.bg-horse {
+    background-image: url("/static/img/origami/horse.jpg");
+    background-size: cover;
+}
+
 @media screen and (max-width: 890px) {
     .introduction-img {
         width: 50%;

@@ -1,7 +1,18 @@
 {% block head %}
-    <link rel="stylesheet" href="/static/css/pages/portfolio.css"/>
+    <link rel="stylesheet" href="/static/css/pages/slideshow.css"/>
+    {#        <script type="text/javascript" src="/static/script/pages/slideshow.js" charset="utf-8"></script> #}
 {% endblock head %}
 
-<section id="hobbies">
+<section id="hobbies" class="container index-section about-section text-white">
+    <div id="origami">
+        {#        <!-- Slideshow container --> #}
+        {#        <div id="origami-slideshow" class="slideshow-container"> #}
+        {#            <!-- The slide images are added by '/static/script/pages/slideshow.js' --> #}
+
+        {#            <!-- Next and previous buttons --> #}
+        {#            <a class="prev" onclick="origami_slideshow.prev_slide()">&#10094;</a> #}
+        {#            <a class="next" onclick="origami_slideshow.next_slide()">&#10095;</a> #}
+        {#        </div> #}
+    </div>
 
 </section>
